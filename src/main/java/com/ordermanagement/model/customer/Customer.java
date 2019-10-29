@@ -1,6 +1,12 @@
 package com.ordermanagement.model.customer;
 
-public class Customer {
+import java.io.Serializable;
+
+public class Customer implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5058530259256801998L;
 	private Integer id;
 	private String last_name;
 	private String first_name;

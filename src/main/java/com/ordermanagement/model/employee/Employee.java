@@ -1,7 +1,13 @@
 package com.ordermanagement.model.employee;
 
-public class Employee {
+import java.io.Serializable;
 
+public class Employee implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3996706692624260531L;
 	private Integer id;
 	private String lastName;
 	private String firstName;

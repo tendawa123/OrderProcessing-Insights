@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBoot_H2_Orders
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: DELL
+Implementation-Vendor-Id: com.onlinetutorialspoint
+Build-Jdk: 1.8.0_231
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBoot_H
+ 2_Database/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: class name com.ordermanagement.app.MainApp
+

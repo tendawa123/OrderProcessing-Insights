@@ -1,7 +1,13 @@
 package com.ordermanagement.model.product;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String productCode;
 	private String productName;
@@ -13,9 +19,10 @@ public class Product {
 	private Integer minimumReorderQuantity;
 	private String quantityPerUnit;
 	private Integer discontinued;
-	
+
 	public Product() {
 	}
+
 	public Product(Integer id, String productCode, String productName, String description, Long standardCost,
 			Long listPrice, Integer targetLevel, Integer reorderLevel, Integer minimumReorderQuantity,
 			String quantityPerUnit, Integer discontinued) {
@@ -32,6 +39,7 @@ public class Product {
 		this.quantityPerUnit = quantityPerUnit;
 		this.discontinued = discontinued;
 	}
+
 	public Integer getId() {
 		return id;
 	}
@@ -120,5 +128,4 @@ public class Product {
 		this.discontinued = discontinued;
 	}
 
-	
 }

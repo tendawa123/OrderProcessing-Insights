@@ -1,9 +1,14 @@
 package com.ordermanagement.model.order;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class Order {
+public class Order implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6997524913313210497L;
 	private Integer id;
 	private Integer employeeId;
 	private Integer customerId;

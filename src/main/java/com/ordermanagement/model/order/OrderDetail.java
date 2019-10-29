@@ -1,7 +1,13 @@
 package com.ordermanagement.model.order;
 
-public class OrderDetail {
+import java.io.Serializable;
 
+public class OrderDetail implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9119254351219508735L;
 	private String orderId;
 	private String productId;
 	private String productCode;

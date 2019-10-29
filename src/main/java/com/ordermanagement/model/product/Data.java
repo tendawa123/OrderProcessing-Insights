@@ -1,9 +1,14 @@
 package com.ordermanagement.model.product;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Data {
+public class Data implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private BigDecimal value;
 	
